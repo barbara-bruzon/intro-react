@@ -2,6 +2,7 @@
     border: 2px solid rgb(255, 0, 0);
     background-color: rgb(173, 173, 173);
     text-align: center;
+    color: red;
     display: flex;
     margin-left: 25px;
     margin-top: 20px;
