@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <NomeFatec />
-      <InputUser placeholder='Usuário' type='string' /> 
-      <InputUser placeholder='Senha' type='password' />
-      <InputUser placeholder='Telefone' type='string' />
+      <InputUser placeholder='Usuário' type='string'/> 
+      <InputUser placeholder='E-mail' type='string' />
+      <InputUser placeholder='Telefone' type='tel' />
       <ButtomFatec type='submit' label='Entrar em contato' />
     </>
   )
