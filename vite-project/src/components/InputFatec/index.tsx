@@ -1,8 +1,8 @@
 import styles from './InputFatec.module.css'
 
 interface Props {
-    placeholder: 'Usuário' | 'Senha' | 'Telefone'
-    type: 'string' | 'password'
+    placeholder: 'Usuário' | 'E-mail' | 'Telefone'
+    type: 'string' | 'tel'
 }
 
 function InputUser({placeholder, type}: Props) {
